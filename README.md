@@ -1,6 +1,6 @@
 # Drug Demand Forecasting for Pharmaceutical Inventory Optimization
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository is part of a **Machine Learning Capstone Project** focused on building an **end-to-end ML solution** for forecasting pharmaceutical drug demand.
 
@@ -9,9 +9,9 @@ Currently, this repository contains **Phase 1: Problem & Data Foundations**.
 
 ---
 
-## 🧩 Project Phases
+##  Project Phases
 
-### **Phase 1: Problem & Data Foundations** ✅ *(Completed)*
+### **Phase 1: Problem & Data Foundations**  *(Completed)*
 
 * Problem statement formulation
 * Dataset selection and justification
@@ -35,7 +35,7 @@ Currently, this repository contains **Phase 1: Problem & Data Foundations**.
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Pharmaceutical companies face challenges in maintaining optimal inventory levels due to fluctuating demand and seasonal patterns. Overstocking increases holding costs and drug wastage, while understocking can lead to shortages that impact patient care.
 
@@ -43,7 +43,7 @@ The objective of this project is to **forecast daily pharmaceutical drug demand*
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 
 * **Source:** Public pharmaceutical sales dataset from Kaggle
 * **Granularity:** Daily sales data
@@ -55,7 +55,7 @@ To align with inventory-level forecasting, demand values across individual drug 
 
 ---
 
-## 🎯 Target Variable
+##  Target Variable
 
 * **Target:** `total_demand`
 * Defined as the sum of daily demand across all drug categories
@@ -63,7 +63,7 @@ To align with inventory-level forecasting, demand values across individual drug 
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 EDA is performed to understand:
 
@@ -75,7 +75,7 @@ EDA is performed to understand:
 
 The insights obtained from EDA help guide **feature engineering and model selection** in later phases.
 
-📘 Notebook:
+ Notebook:
 
 ```
 notebooks/01_eda_phase1.ipynb
@@ -83,7 +83,7 @@ notebooks/01_eda_phase1.ipynb
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 Since this is a **regression / forecasting problem**, the following metrics are defined:
 
@@ -95,7 +95,7 @@ These metrics will be used for model evaluation in Phase 2.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 drug-demand-forecasting-ml/
@@ -115,14 +115,14 @@ drug-demand-forecasting-ml/
 
 ---
 
-## 🏁 Current Status
+##  Current Status
 
-✔️ **Phase 1 completed**
-🚧 Phase 2 and Phase 3 will be implemented next
+ **Phase 1 completed**
+ Phase 2 and Phase 3 will be implemented next
 
 ---
 
-## 🔜 Next Steps
+##  Next Steps
 
 * Implement multiple ML models for demand forecasting
 * Perform hyperparameter tuning and model explainability
